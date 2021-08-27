@@ -1,0 +1,46 @@
+div.gallery {
+  margin: 20px;
+  float: left;
+  width: 27%;
+  margin-left: 80px;
+}
+
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+#homeform {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+.textbox{
+  text-align: center;
+}
+
+.gallery{
+  position:relative;
+  display: inline-block;
+}
+
+body{
+  background-image: Linear-gradient(245deg, #e66465, #9198e5);
+}
+
+.title{
+  font-size: 50px;
+  margin-top: 90px;
+  font-family: Snell Roundhand, cursive;
+}
+
+img{
+  border-radius: 5%;
+}
