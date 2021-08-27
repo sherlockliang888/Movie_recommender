@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Emotion Analysis </title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
+    </head>
+    <h1 class = "textbox title">OLEVOD</h1>
+    <form action = '/home' method="POST" id= "homeform" enctype="multipart/form-data">
+        <label>User ID:   </label><input type = 'text' name = 'userID' placeholder="Enter your ID" required>
+        <input type="submit" name="Go" value="Go">
+
+
+    </form>
+
+</html>

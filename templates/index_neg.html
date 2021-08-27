@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Emotion Analysis </title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
+    </head>
+    <body>
+        <h1 class = "textbox title">OLEVOD Recommendation</h1>
+        <h3 class = textbox> Sorry User {{userID}}, we don't have {{moviename}} yet, Please try something else.</h3>
+        <p class = textbox>User ID: {{ userID }}</p>
+        <form action = '/test' method="POST" class = textbox enctype="multipart/form-data">
+            <label>User ID</label><input type = 'text' name = 'userID' placeholder="Confirm your User ID" required >
+            <label>Movie Name</label><input type = 'text' name = 'moviename' placeholder="Enter a full movie name" required>
+            <input type="submit" name="Go" value="Go">
+
+        </form>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im1 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im1 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im2 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im2 }}</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im3 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im3 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im4 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im4 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im5 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im5 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im6 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im6 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im7 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im7 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im8 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im8 }}</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+              <img src="https://www.colourbox.com/preview/24219231-cinema-objects-popcorn-bucket-film-roll-ticket-clapper-3d-glasses.jpg" alt= "{{ im9 }}" width="600" height="400">
+            </a>
+            <div class="desc">{{ im9 }}</div>
+        </div>
+        
+    </body>
+</html>
